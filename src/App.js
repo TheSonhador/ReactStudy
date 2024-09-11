@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Contador from './Contador';
+import Caixa from './Caixa';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Contador titulo="Contador Simples" />
+
+      {/* <h1>Exemplo de Uso de Children</h1>
+
+      <Caixa titulo="Caixa 1">
+        <p>Este é um parágrafo dentro da primeira caixa.</p>
+        <button>Clique aqui</button>
+      </Caixa>
+
+      <Caixa titulo="Caixa 2">
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </Caixa>
+
+      <Caixa titulo="Caixa 3">
+        <img 
+          src="https://via.placeholder.com/150" 
+          alt="Imagem Exemplo"
+          style={{ borderRadius: '8px' }}
+        />
+      </Caixa> */}
     </div>
   );
 }
